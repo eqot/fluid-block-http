@@ -1,6 +1,11 @@
 import http from 'http'
 
 export default class Http {
+  static defaultParams = {
+    color1: '#abf7f7',
+    color2: '#4dfbfb'
+  }
+
   constructor (params) {
     this.duration = params
   }
